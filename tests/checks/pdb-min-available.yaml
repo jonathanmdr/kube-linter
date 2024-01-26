@@ -79,11 +79,18 @@ metadata:
   name: app3
   namespace: bar3
 spec:
-  minReplicas: 1
-  maxReplicas: 100
+  minReplicaCount: 1
+  maxReplicaCount: 100
   scaleTargetRef:
     name: foo3
-  targetCPUUtilizationPercentage: 85
+  triggers:
+    - metadata:
+        bootstrapServers: >-
+          one.kafka.com:9092,two.kafka.com:9092
+        consumerGroup: foo3
+        lagThreshold: '10000'
+        topic: foo-topic-name
+      type: kafka
 ---
 apiVersion: apps/v1
 kind: Deployment
