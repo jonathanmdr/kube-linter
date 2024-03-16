@@ -7,22 +7,22 @@ toolchain go1.21.6
 require (
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/bmatcuk/doublestar/v4 v4.6.1
-	github.com/cert-manager/cert-manager v1.14.3
+	github.com/cert-manager/cert-manager v1.14.4
 	github.com/fatih/color v1.16.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/golangci/golangci-lint v1.56.2
 	github.com/goreleaser/goreleaser v1.24.0
-	github.com/kedacore/keda/v2 v2.13.0
+	github.com/kedacore/keda/v2 v2.13.1
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/openshift/api v0.0.0-20230406152840-ce21e3fe5da2
 	github.com/owenrumney/go-sarif/v2 v2.3.0
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.71.2
+	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.72.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.18.2
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	helm.sh/helm/v3 v3.14.2
 	k8s.io/api v0.29.2
 	k8s.io/apimachinery v0.29.2
@@ -364,7 +364,7 @@ require (
 	github.com/spf13/cast v1.6.0 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
 	github.com/stbenjam/no-sprintf-host-port v0.1.1 // indirect
-	github.com/stretchr/objx v0.5.1 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/t-yuki/gocover-cobertura v0.0.0-20180217150009-aaee18c8195c // indirect
 	github.com/tdakkota/asciicheck v0.2.0 // indirect
@@ -429,10 +429,10 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20240116215550-a9fa1716bcac // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240116215550-a9fa1716bcac // indirect
 	google.golang.org/grpc v1.60.1 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/evanphx/json-patch.v5 v5.8.1 // indirect
-	gopkg.in/go-jose/go-jose.v2 v2.6.1 // indirect
+	gopkg.in/go-jose/go-jose.v2 v2.6.3 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/mail.v2 v2.3.1 // indirect
@@ -440,9 +440,9 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	honnef.co/go/tools v0.4.6 // indirect
-	k8s.io/apiextensions-apiserver v0.29.0 // indirect
-	k8s.io/component-base v0.29.0 // indirect
-	k8s.io/klog/v2 v2.110.1 // indirect
+	k8s.io/apiextensions-apiserver v0.29.2 // indirect
+	k8s.io/component-base v0.29.2 // indirect
+	k8s.io/klog/v2 v2.120.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240103051144-eec4567ac022 // indirect
 	k8s.io/utils v0.0.0-20240102154912-e7106e64919e // indirect
 	knative.dev/pkg v0.0.0-20240116073220-b488e7be5902 // indirect
@@ -451,7 +451,7 @@ require (
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
 	mvdan.cc/unparam v0.0.0-20240104100049-c549a3470d14 // indirect
 	oras.land/oras-go v1.2.4 // indirect
-	sigs.k8s.io/controller-runtime v0.16.3 // indirect
+	sigs.k8s.io/controller-runtime v0.17.2 // indirect
 	sigs.k8s.io/gateway-api v1.0.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kind v0.20.0 // indirect
